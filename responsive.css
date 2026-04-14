@@ -1,0 +1,26 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex:auto
+}
+p{font-size: 2rem;}
+.escalado{
+    transition: all 2s ease; /*a que propiedad, cuanto demora, tipo de transición,*/
+}
+.contImagenes{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+}
+@media (width >= 767px){/*a mayores habilitamos el hoover*/
+.escalado:hover{
+    width: 300px;
+}
+
+@media (width <)
+
+}
