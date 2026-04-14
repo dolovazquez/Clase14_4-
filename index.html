@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="container">
+    <h1>Hello, world!</h1>
+
+    <section class="row"> <!-- Las filas contienen 12 col -->
+        <article class="col-4 mx-auto">primero</article>
+        <article class="col-4 mx-auto">segundo</article>
+        <article class="col-4 mx-auto">tercero</article>
+    </section>
+
+    <section class ="d-flex flex-wrap">
+        <article class="w-25">uno</article>
+        <article class="w-25">dos</article>
+        <article class="w-25">uno</article>        
+        <article class="w-25">dos</article>
+        <article class="w-25">uno</article>
+        <article class="w-25">dos</article>
+        <article class="w-25">uno</article>        
+        <article class="w-25">dos</article>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+    crossorigin="anonymous"></script>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://media.istockphoto.com/id/636379014/es/foto/manos-la-formaci%C3%B3n-de-una-forma-de-coraz%C3%B3n-con-silueta-al-atardecer.jpg?s=612x612&w=0&k=20&c=R2BE-RgICBnTUjmxB8K9U0wTkNoCKZRi-Jjge8o_OgE=" class="d-block w-100" alt="mano con corazon">
+          </div>
+          <div class="carousel-item">
+            <img src="https://snipinsta.app/assets/img/meme-templates/roll-safe.jpg" class="d-block w-100" alt="hombre pensando">
+          </div>
+          <div class="carousel-item">
+            <img src="https://thumbs.dreamstime.com/b/salida-del-sol-de-la-historieta-41819778.jpg" class="d-block w-100" alt="sol saliente">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </body>
+</html>
+
+
+
