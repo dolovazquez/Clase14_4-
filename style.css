@@ -1,3 +1,10 @@
+body.bg-personalizado{
+    min-height: 100vh;
+    background-image: url (https://img.freepik.com/vector-gratis/icono-vectorial-dibujos-animados-ilustracion-naturaleza-icono-vacaciones-aislado-plano_138676-13304.jpg?semt=ais_hybrid&w=740&q=80);
+    /*background-repeat: no-repeat;*/
+    background-size: 30%;
+}
+
 section{
     background-color: aquamarine;
     padding: 2rem;
